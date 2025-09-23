@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTCbjTIedmQdn-KwXhJI2n1cywINB54Nd0gRHJoxd1UCh8m2NWk28NBvuUSuAJEk10SO9Nee0vwotSGiLQ",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "battingType": "Left-Handed",
+    "bowlingType": "Slow left-arm orthodox",
+    "rating": 9.5,
+    "price": 40000000.0
+  },
+  {
+    "id": 2,
+    "name": "Mustafizur Rahman",
+    "image": "https://humenglish.com/wp-content/uploads/2024/11/16-2312191615.jpg",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "battingType": "Left-Handed",
+    "bowlingType": "Left-Arm Fast-Medium",
+    "rating": 8.7,
+    "price": 30000000.0
+  },
+  {
+    "id": 3,
+    "name": "Mohammad Naim",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEO3zJiW9ZLyPfUvCq7YNQnGdhlMCMDTz8zQ&s",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "battingType": "Right-Handed",
+    "bowlingType": "None",
+    "rating": 7.8,
+    "price": 15000000.0
+  },
+  {
+    "id": 4,
+    "name": "Mahedi Hasan",
+    "image": "https://static.cricbuzz.com/a/img/v1/i1/c242942/the-first-name-for-colombo-was-always-mahedi-litton.jpg?d=low&p=det",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "battingType": "Right-Handed",
+    "bowlingType": "Right-Arm Off-Break",
+    "rating": 8.2,
+    "price": 20000000.0
+  },
+  {
+    "id": 5,
+    "name": "Mahidul Islam Ankon",
+    "image": "https://tds-images.thedailystar.net/sites/default/files/styles/medium_202/public/images/2025/02/08/7fe4c889-d65e-4488-8a9e-834b009ed4ab.jpg",
+    "country": "Bangladesh",
+    "role": "Wicket-keeper / Batter",
+    "battingType": "Right-Handed",
+    "bowlingType": "None",
+    "rating": 7.5,
+    "price": 12000000.0
+  },
+  {
+    "id": 6,
+    "name": "Towhid Hridoy",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52da_-Ko-KMeENxcq2i4K7oz7-EXuPiKmCA&s",
+    "country": "Bangladesh",
+    "role": "Middle-Order Batsman",
+    "battingType": "Right-Handed",
+    "bowlingType": "Right-Arm Off-Break",
+    "rating": 7.9,
+    "price": 18000000.0
+  },
+  {
+    "id": 7,
+    "name": "Ebadot Hossain",
+    "image": "https://media.sportstiger.com/media/ebadot-hossain-1696156233972-original.jpg",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "battingType": "Right-Handed",
+    "bowlingType": "Right-Arm Fast",
+    "rating": 8.0,
+    "price": 22000000.0
+  },
+  {
+    "id": 8,
+    "name": "Alex Hales",
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_480,q_50/esci/media/motion/2023/0804/dm_230804_COM_CRI_Analysis_Alex_Hales_legacy_T20_World_Cup_winner_or_off_field_antics_20230804_GLOBAL/dm_230804_COM_CRI_Analysis_Alex_Hales_legacy_T20_World_Cup_winner_or_off_field_antics_20230804_GLOBAL.jpg",
+    "country": "England",
+    "role": "Batsman",
+    "battingType": "Right-Handed",
+    "bowlingType": "None",
+    "rating": 8.5,
+    "price": 25000000.0
+  },
+  {
+    "id": 9,
+    "name": "Shaheen Afridi",
+    "image": "https://media.crictracker.com/media/featureimage/2019/09/CT_358508.jpg",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "battingType": "Left-Handed",
+    "bowlingType": "Left-Arm Fast",
+    "rating": 9.0,
+    "price": 35000000.0
+  },
+  {
+    "id": 10,
+    "name": "Paul Stirling",
+    "image": "https://c.files.bbci.co.uk/17C14/production/_108600379_paulstirlingindex2.jpg",
+    "country": "Ireland",
+    "role": "Batsman",
+    "battingType": "Right-Handed",
+    "bowlingType": "Right-Arm Medium",
+    "rating": 8.1,
+    "price": 20000000.0
+  },
+  {
+    "id": 11,
+    "name": "Moeen Ali",
+    "image": "https://static.independent.co.uk/2023/02/28/18/56b782ed5fc6297c0284fd6b96bad3daY29udGVudHNlYXJjaGFwaSwxNjc3Njg4NDA5-2.69775362.jpg",
+    "country": "England",
+    "role": "All-Rounder",
+    "battingType": "Left-Handed",
+    "bowlingType": "Right-Arm Off-Break",
+    "rating": 8.8,
+    "price": 28000000.0
+  },
+  {
+    "id": 12,
+    "name": "Nasum Ahmed",
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_800,q_50/lsci/db/PICTURES/CMS/366800/366892.6.jpg",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "battingType": "Left-Handed",
+    "bowlingType": "Left-Arm Orthodox",
+    "rating": 7.7,
+    "price": 17000000.0
+  }
+]
