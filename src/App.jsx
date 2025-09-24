@@ -4,6 +4,7 @@ import AvailablePlayer from "./Components/availablePlayer/AvailablePlayer";
 import Navbar from "./Components/navbar/Navbar";
 import SelectedPlayer from "./Components/selectedPlayer/selectedPlayer";
 import ToggleTop from "./Components/toggleTop/ToggleTop";
+import { ToastContainer } from "react-toastify";
 
 const fetchPlayers = async () => {
   const res = await fetch("/playersData.json");
@@ -54,6 +55,7 @@ function App() {
           soldPlayer={soldPlayer}
         ></SelectedPlayer>
       )}
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

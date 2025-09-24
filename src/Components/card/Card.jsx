@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import userImg from "../../assets/user-1.png";
 import flagIcon from "../../assets/Vector.png";
+import { toast } from "react-toastify";
 
 const Card = ({ setSoldPlayer, soldPlayer, setCoin, coin, player }) => {
   const [isSelected, setIsSelected] = useState(false);
   const handleSelectClick = () => {
     if (coin < player.price) {
-      alert("Not Enough Coin");
+      toast("Not Enough Coin");
       return;
     }
     setCoin(coin - player.price);
