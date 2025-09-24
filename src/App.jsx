@@ -16,6 +16,14 @@ function App() {
   const [coin, setCoin] = useState(100000000);
   const [soldPlayer, setSoldPlayer] = useState([]);
 
+  const handleRemove = (removeCard) => {
+    const remainingPlayer = soldPlayer.filter(
+      (soldPlayerSingle) => soldPlayerSingle.id !== removeCard.id
+    );
+    setSoldPlayer(remainingPlayer);
+    setCoin(coin + removeCard.price);
+  };
+
   return (
     <div className="max-w-7xl mx-auto p-5">
       <Navbar coin={coin}></Navbar>
@@ -41,7 +49,10 @@ function App() {
           ></AvailablePlayer>
         </Suspense>
       ) : (
-        <SelectedPlayer soldPlayer={soldPlayer}></SelectedPlayer>
+        <SelectedPlayer
+          handleRemove={handleRemove}
+          soldPlayer={soldPlayer}
+        ></SelectedPlayer>
       )}
     </div>
   );

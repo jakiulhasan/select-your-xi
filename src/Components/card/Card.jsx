@@ -11,7 +11,7 @@ const Card = ({ setSoldPlayer, soldPlayer, setCoin, coin, player }) => {
     }
     setCoin(coin - player.price);
     setIsSelected(true);
-    setSoldPlayer([...soldPlayer, soldPlayer]);
+    setSoldPlayer([...soldPlayer, player]);
   };
   return (
     <div>
